@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Iframe Form</title>
+        <link rel="stylesheet" href="iframe_styles.css">
+    </head>
+    <body>
+        <div class="container">
+        <div class="box">
+            <h2>Client details</h2>
+            <form id="jobForm">
+            
+                <div class="one_line">
+                    <div class="form-section">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" placeholder="First name" required >
+                </div>
+                <div class="form-section">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" placeholder="Last name" required>
+                </div>
+                </div>
+                <div class="form-section">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone"  placeholder="Phone" required>
+                </div>
+                <div class="form-section">
+                    <label for="email">Email(Optional)</label>
+                    <input type="text" id="email" placeholder="Email(optional)">
+                </div>           
+            </form>
+        </div>
+        <div class="box">
+            <form id="jobForm">
+                <h2>Job type</h2>
+                <div class="one_line">
+                    <div class="form-section">
+                        <label for="jobtype">Job type</label>
+                        <select id="jobtype" placeholder="Job type" required>
+                            <option value="" disabled selected>Job type</option>
+                            <option value="job1">job1</option>
+                            <option value="job2">job2</option>
+                            <option value="job3">job3</option>
+                            <option value="job4">job4</option>
+                          </select>
+                     </div>
+                    <div class="form-section">
+                        <label for="jobsource">Job source</label>
+                        <select id="jobtype" placeholder="Job type" required>
+                            <option value="" disabled selected>job source</option>
+                            <option value="job1">job1</option>
+                            <option value="job2">job2</option>
+                            <option value="job3">job3</option>
+                            <option value="job4">job4</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <label for="jobdescription">Job description</label>
+                    <input style="height: 110px;" type="text" id="jobdescription" placeholder="Job description(Optional)" >
+                </div>
+                
+                
+            </form>
+
+        </div>
+
+        <div class="box">
+            <form id="jobForm">
+                <h2>Service location</h2>
+                <div class="form-section">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" placeholder="Adress" required >
+                 </div>
+                <div class="form-section">
+                    <label for="city">City</label>
+                    <input type="text" id="city" placeholder="City">
+                </div>
+                <div class="form-section">
+                    <label for="state">State</label>
+                    <input type="text" id="state" placeholder="State" required>
+                </div>
+                <div class="one_line">
+                    <div class="form-section">
+                        <label for="zipcode">Zip code</label>
+                        <input type="text" id="zipcode" placeholder="Zip code" required >
+                     </div>
+                    <div class="form-section">
+                        <label for="area">Area</label>
+                        <select id="area" placeholder="Area" required>
+                            <option value="" disabled selected>Area</option>
+                            <option value="area2">area1</option>
+                            <option value="area3">area2</option>
+                            <option value="area4">area3</option>
+                            <option value="area5">area4</option>
+                          </select>
+                    </div>
+                </div>
+                
+                
+                
+            </form>
+
+        </div>
+
+        <div class="box">
+            <form id="jobForm">
+                <h2>Scheduled</h2>
+               
+                <div class="form-section">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" value="Date" required>
+                </div>
+                <div class="one_line">
+                    <div class="form-section">
+                        <label for="stime">Start time</label>
+                        <input type="time" id="stime" placeholder="Start time" required >
+                     </div>
+                    <div class="form-section">
+                        <label for="etime">End time</label>
+                        <input type="time" id="etime" placeholder="End time" required>
+                    </div>
+                </div>
+                <div class="form-section">
+                    <label for="test">Test select</label>
+                    <select id="test" placeholder="test" required>
+                        <option value="Test select" disabled selected>Test select</option>
+                        <option value="test1">test1</option>
+                        <option value="test2">test2</option>
+                        <option value="test3">test3</option>
+                        <option value="test4">test4</option>
+                      </select>
+                </div>
+            </div>
+            
+            <button class="button1" type="submit">Create Job</button>
+            <button class="button2" type="submit">Save Info</button>
+            </form>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+        
+    </body>
+
+</html>
